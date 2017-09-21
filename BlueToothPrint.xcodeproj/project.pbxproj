@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		D328680E1F738870000F4B74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D328680D1F738870000F4B74 /* AppDelegate.m */; };
 		D32868111F738870000F4B74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D32868101F738870000F4B74 /* ViewController.m */; };
-		D32868141F738870000F4B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32868121F738870000F4B74 /* Main.storyboard */; };
 		D32868161F738870000F4B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32868151F738870000F4B74 /* Assets.xcassets */; };
 		D32868191F738870000F4B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32868171F738870000F4B74 /* LaunchScreen.storyboard */; };
 		D328681C1F738870000F4B74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D328681B1F738870000F4B74 /* main.m */; };
 		D32868261F738873000F4B74 /* BlueToothPrintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D32868251F738873000F4B74 /* BlueToothPrintTests.m */; };
+		D32868421F7388A1000F4B74 /* HLBLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D32868341F7388A1000F4B74 /* HLBLEManager.m */; };
+		D32868431F7388A1000F4B74 /* OKBLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D32868361F7388A1000F4B74 /* OKBLEManager.m */; };
+		D32868441F7388A1000F4B74 /* HLPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = D32868391F7388A1000F4B74 /* HLPrinter.m */; };
+		D32868451F7388A1000F4B74 /* OKPrinterHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = D328683B1F7388A1000F4B74 /* OKPrinterHelp.m */; };
+		D32868461F7388A1000F4B74 /* OKSellerPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = D328683D1F7388A1000F4B74 /* OKSellerPrinter.m */; };
+		D32868471F7388A1000F4B74 /* UIImage+Bitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = D328683F1F7388A1000F4B74 /* UIImage+Bitmap.m */; };
+		D32868481F7388A1000F4B74 /* UIWebView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D32868411F7388A1000F4B74 /* UIWebView+UIImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +38,6 @@
 		D328680D1F738870000F4B74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D328680F1F738870000F4B74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D32868101F738870000F4B74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D32868131F738870000F4B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D32868151F738870000F4B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D32868181F738870000F4B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D328681A1F738870000F4B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +45,21 @@
 		D32868211F738871000F4B74 /* BlueToothPrintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueToothPrintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32868251F738873000F4B74 /* BlueToothPrintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothPrintTests.m; sourceTree = "<group>"; };
 		D32868271F738873000F4B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32868321F7388A1000F4B74 /* HLBLEConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLBLEConst.h; sourceTree = "<group>"; };
+		D32868331F7388A1000F4B74 /* HLBLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLBLEManager.h; sourceTree = "<group>"; };
+		D32868341F7388A1000F4B74 /* HLBLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLBLEManager.m; sourceTree = "<group>"; };
+		D32868351F7388A1000F4B74 /* OKBLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKBLEManager.h; sourceTree = "<group>"; };
+		D32868361F7388A1000F4B74 /* OKBLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKBLEManager.m; sourceTree = "<group>"; };
+		D32868381F7388A1000F4B74 /* HLPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPrinter.h; sourceTree = "<group>"; };
+		D32868391F7388A1000F4B74 /* HLPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPrinter.m; sourceTree = "<group>"; };
+		D328683A1F7388A1000F4B74 /* OKPrinterHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKPrinterHelp.h; sourceTree = "<group>"; };
+		D328683B1F7388A1000F4B74 /* OKPrinterHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKPrinterHelp.m; sourceTree = "<group>"; };
+		D328683C1F7388A1000F4B74 /* OKSellerPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKSellerPrinter.h; sourceTree = "<group>"; };
+		D328683D1F7388A1000F4B74 /* OKSellerPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKSellerPrinter.m; sourceTree = "<group>"; };
+		D328683E1F7388A1000F4B74 /* UIImage+Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bitmap.h"; sourceTree = "<group>"; };
+		D328683F1F7388A1000F4B74 /* UIImage+Bitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bitmap.m"; sourceTree = "<group>"; };
+		D32868401F7388A1000F4B74 /* UIWebView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UIImage.h"; sourceTree = "<group>"; };
+		D32868411F7388A1000F4B74 /* UIWebView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+UIImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +101,11 @@
 		D328680B1F73886F000F4B74 /* BlueToothPrint */ = {
 			isa = PBXGroup;
 			children = (
+				D32868301F7388A1000F4B74 /* Printer */,
 				D328680C1F73886F000F4B74 /* AppDelegate.h */,
 				D328680D1F738870000F4B74 /* AppDelegate.m */,
 				D328680F1F738870000F4B74 /* ViewController.h */,
 				D32868101F738870000F4B74 /* ViewController.m */,
-				D32868121F738870000F4B74 /* Main.storyboard */,
 				D32868151F738870000F4B74 /* Assets.xcassets */,
 				D32868171F738870000F4B74 /* LaunchScreen.storyboard */,
 				D328681A1F738870000F4B74 /* Info.plist */,
@@ -101,6 +121,44 @@
 				D32868271F738873000F4B74 /* Info.plist */,
 			);
 			path = BlueToothPrintTests;
+			sourceTree = "<group>";
+		};
+		D32868301F7388A1000F4B74 /* Printer */ = {
+			isa = PBXGroup;
+			children = (
+				D32868311F7388A1000F4B74 /* HLBluetooth */,
+				D32868371F7388A1000F4B74 /* HLPrinter */,
+			);
+			path = Printer;
+			sourceTree = "<group>";
+		};
+		D32868311F7388A1000F4B74 /* HLBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				D32868321F7388A1000F4B74 /* HLBLEConst.h */,
+				D32868331F7388A1000F4B74 /* HLBLEManager.h */,
+				D32868341F7388A1000F4B74 /* HLBLEManager.m */,
+				D32868351F7388A1000F4B74 /* OKBLEManager.h */,
+				D32868361F7388A1000F4B74 /* OKBLEManager.m */,
+			);
+			path = HLBluetooth;
+			sourceTree = "<group>";
+		};
+		D32868371F7388A1000F4B74 /* HLPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				D32868381F7388A1000F4B74 /* HLPrinter.h */,
+				D32868391F7388A1000F4B74 /* HLPrinter.m */,
+				D328683A1F7388A1000F4B74 /* OKPrinterHelp.h */,
+				D328683B1F7388A1000F4B74 /* OKPrinterHelp.m */,
+				D328683C1F7388A1000F4B74 /* OKSellerPrinter.h */,
+				D328683D1F7388A1000F4B74 /* OKSellerPrinter.m */,
+				D328683E1F7388A1000F4B74 /* UIImage+Bitmap.h */,
+				D328683F1F7388A1000F4B74 /* UIImage+Bitmap.m */,
+				D32868401F7388A1000F4B74 /* UIWebView+UIImage.h */,
+				D32868411F7388A1000F4B74 /* UIWebView+UIImage.m */,
+			);
+			path = HLPrinter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,7 +245,6 @@
 			files = (
 				D32868191F738870000F4B74 /* LaunchScreen.storyboard in Resources */,
 				D32868161F738870000F4B74 /* Assets.xcassets in Resources */,
-				D32868141F738870000F4B74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,9 +262,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32868441F7388A1000F4B74 /* HLPrinter.m in Sources */,
+				D32868461F7388A1000F4B74 /* OKSellerPrinter.m in Sources */,
 				D32868111F738870000F4B74 /* ViewController.m in Sources */,
+				D32868481F7388A1000F4B74 /* UIWebView+UIImage.m in Sources */,
 				D328681C1F738870000F4B74 /* main.m in Sources */,
+				D32868431F7388A1000F4B74 /* OKBLEManager.m in Sources */,
 				D328680E1F738870000F4B74 /* AppDelegate.m in Sources */,
+				D32868421F7388A1000F4B74 /* HLBLEManager.m in Sources */,
+				D32868471F7388A1000F4B74 /* UIImage+Bitmap.m in Sources */,
+				D32868451F7388A1000F4B74 /* OKPrinterHelp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,14 +294,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D32868121F738870000F4B74 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D32868131F738870000F4B74 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D32868171F738870000F4B74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,6 +416,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W222R58V26;
 				INFOPLIST_FILE = BlueToothPrint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.okdeer.BlueToothPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,6 +431,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W222R58V26;
 				INFOPLIST_FILE = BlueToothPrint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.okdeer.BlueToothPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
